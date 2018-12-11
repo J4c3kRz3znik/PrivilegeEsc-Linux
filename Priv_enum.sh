@@ -41,6 +41,7 @@ case "$r" in
 	cat ~/.bashrc
 	cat ~/.bash_profile
 	cat ~/.bash_logout
+	lpstat -a
 	env
 	echo ""
 	echo "#####apps and services#####"
@@ -139,6 +140,7 @@ case "$r" in
 	cat ~/.bashrc
 	cat ~/.bash_profile
 	cat ~/.bash_logout
+	lpstat -a
 	env
 	;;
 	"apps")
