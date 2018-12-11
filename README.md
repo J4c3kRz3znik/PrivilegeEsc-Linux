@@ -9,15 +9,25 @@ find / -writable -type d 2>/dev/null
 This script after execute save raport with results. In first step you need to chose the one of options
 
 All -> use all options
+
 OS-check -> check OS version and kernel
+
 envi -> for environmental variables and printers
+
 apps -> check apps and services
+
 config -> check services settings
+
 SUID_GUID -> advanced linux secure settings
+
 write -> noowner files, executable folders and witeable folders
+
 lang -> development tools or languages 
+
 upload -> file transfer options
+
 nothing -> QUIT
+
 special -> special message
 
 In second step you need to write a name of raport.
